@@ -1,6 +1,6 @@
 # Lista de Tareas en Angular 📓
 
-Simple aplicación de lista de tareas realizada en Angular para la asignatura de Programación Multimedia y Dispositivos Móviles, en la que se pueden añadir nuevas tareas, eliminarlas o marcarlas como realizadas (color verde 🟢) o pendientes (color rojo 🔴).
+Simple aplicación de lista de tareas realizada en Angular para la asignatura de Programación Multimedia y Dispositivos Móviles, en la que se pueden añadir nuevas tareas, eliminarlas, marcarlas como realizadas (color verde 🟢) o pendientes (color rojo 🔴).
 
 En este enlace podéis probar la aplicación 👉 https://svigild.github.io/ListaTareasAngular/
 
