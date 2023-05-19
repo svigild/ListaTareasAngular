@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row fila">
+        <div class="col-lg-10 col-md-9 col-sm-7">
+            <input type="text" class="form-control input"  [(ngModel)]="nuevaTarea" placeholder="Ingrese una nueva tarea">
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-5">
+            <button class="form-control btnAñadir" (click)="addTask()" ><i class="fa-solid fa-plus" title="Añade una nueva tarea"></i></button>
+          </div>
+    </div>
+    <div class="row">
+        <ul>
+            <li *ngFor="let t of tareas" [class.pending]="t.pending">
+                <app-detalles-tarea [tareas]="t" (deleted)="deleteTask(t)"></app-detalles-tarea>
+            </li>
+        </ul>
+    </div>
+</div>

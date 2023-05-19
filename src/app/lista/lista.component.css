@@ -1,0 +1,61 @@
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul li {
+    display: block;
+    background-color: lightgreen;
+    margin: 5px 0px;
+    font-size: 2em;
+    border-radius: 20px;
+}
+
+ul li:hover {
+    background-color: green;
+}
+
+ul li.pending {
+    background-color: lightcoral;
+}
+
+ul li.pending:hover {
+    background-color: red;
+}
+
+.input {
+    border-radius: 20px;
+    font-size: 1.5em;
+    font-style: none;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: none;
+
+}
+
+.btnAñadir {
+    border-radius: 20px;
+    font-size: 1.5em;
+    background-color: rgb(99, 89, 89);
+    color: white;
+    outline: none;
+}
+
+.btnAñadir:hover {
+    background-color: white;
+    color: rgb(99, 89, 89);
+}
+
+.fila {
+    margin-bottom: 1.5rem;
+}
+
+.btnAñadir,
+.btnAñadir:focus,
+.btnAñadir:active{
+    outline: none;
+  box-shadow: none;
+  border-color: white;
+}

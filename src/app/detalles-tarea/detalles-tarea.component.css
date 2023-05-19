@@ -1,0 +1,13 @@
+a {
+    float: right;
+    padding-right: 2rem;
+    text-decoration: none;
+}
+
+i{
+    color: rgb(99, 89, 89);
+}
+
+i:hover{
+    color: white;
+}

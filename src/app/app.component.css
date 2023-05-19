@@ -1,0 +1,24 @@
+.container {
+    text-align: center;
+    margin-top: 10%;
+    flex: content;
+    background-color: rgb(99, 89, 89);
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.titulo {
+    user-select: none;
+    font-size: 3rem;
+}
+
+.container {
+    user-select: none;
+}

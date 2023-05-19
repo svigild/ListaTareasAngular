@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter } from '@angular/core';
+import { Tarea } from './model/tarea';
 
 @Component({
   selector: 'app-root',
